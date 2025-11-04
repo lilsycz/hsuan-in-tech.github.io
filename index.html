@@ -11,8 +11,8 @@
     <div class="brand">Hsuan</div>
     <nav>
       <a href="#home">Home</a>
-      <a href="#work">Work</a>
       <a href="#about">About</a>
+      <a href="#work">Work</a>
       <a href="#contact">Contact</a>
       <button id="themeToggle" aria-label="Toggle theme">☾</button>
     </nav>
@@ -77,7 +77,29 @@
   </article>
 </section>
 <!-- ===== end application blocks ===== -->
-  
+
+  <section id="about" class="section alt">
+    <h2>About</h2>
+    <embed src="assets/cv_jadechen.pdf" type="application/pdf" width="50%" height="600px" />
+    <p>
+      Hej! It's Hsuan here, you can also call me Jade. I'm an Architect and exploring opportunities in the game/development industry!
+    </p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>
+      Email: <a href="mailto:jadezxchan@gmail.com">jadezxchan@gmail.com</a> ·
+      LinkedIn: <a href="https://www.linkedin.com/in/jadezxchen" target="_blank" rel="noopener">Jade Chen</a>
+    </p>
+    <form class="contact" onsubmit="event.preventDefault(); alert('Thanks! Replace this with a real form service if needed.');">
+      <input type="text" placeholder="Your name" required/>
+      <input type="email" placeholder="Your email" required/>
+      <textarea rows="4" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
   <section id="work" class="section">
     <h2>Selected Work</h2>
     <div class="grid">
@@ -106,28 +128,6 @@
         </figcaption>
       </figure>
     </div>
-  </section>
-
-  <section id="about" class="section alt">
-    <h2>About</h2>
-    <embed src="assets/cv_jadechen.pdf" type="application/pdf" width="50%" height="600px" />
-    <p>
-      Hej! It's Hsuan here, you can also call me Jade. I'm an Architect and exploring opportunities in the game/development industry!
-    </p>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>
-      Email: <a href="mailto:jadezxchan@gmail.com">jadezxchan@gmail.com</a> ·
-      LinkedIn: <a href="https://www.linkedin.com/in/jadezxchen" target="_blank" rel="noopener">Jade Chen</a>
-    </p>
-    <form class="contact" onsubmit="event.preventDefault(); alert('Thanks! Replace this with a real form service if needed.');">
-      <input type="text" placeholder="Your name" required/>
-      <input type="email" placeholder="Your email" required/>
-      <textarea rows="4" placeholder="Message"></textarea>
-      <button type="submit">Send</button>
-    </form>
   </section>
 
   <footer class="footer">
